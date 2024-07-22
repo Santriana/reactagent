@@ -126,9 +126,9 @@ class CustomOutputParser(AgentOutputParser):
 class queryreactagent:
     def __init__(self):
         self.llm = AzureChatOpenAI(deployment_name = "gpt-4o",
-                         api_key = "1bc94464956c4a4cb6f7430de96be615",
-                         openai_api_version="2024-02-01",
-                         azure_endpoint="https://iris-openai-azure.openai.azure.com/",
+                         api_key = "YOUR_API_KEY",
+                         openai_api_version="VERSION_DATE",
+                         azure_endpoint="YOUR_ENDPOINT",
                          temperature=0)
         
         self.emb_key = os.getenv('COHERE_API_KEY')
