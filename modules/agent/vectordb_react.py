@@ -29,11 +29,11 @@ from dotenv import load_dotenv
 load_dotenv('.env')
 
 
-username = '_System'
-password = '12345678'
-hostname = '10.1.12.88'
-port = '1972'
-namespace = 'SILOAM'
+username = 'YOUR_DB_USERNAME'
+password = 'YOUR_DB_PASSWORD'
+hostname = 'YOUR_DB_HOSTNAME'
+port = 'YOUR_DB_PORT'
+namespace = 'YOUR_NAMESPACE'
 CONNECTION_STRING = f"iris://{username}:{password}@{hostname}:{port}/{namespace}"
 
 
